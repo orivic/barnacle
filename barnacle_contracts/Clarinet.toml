@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.daily_withdrawal_limit_wallet]
+path = 'contracts/daily_withdrawal_limit_wallet.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.file_encryption]
 path = 'contracts/file_encryption.clar'
 clarity_version = 2
