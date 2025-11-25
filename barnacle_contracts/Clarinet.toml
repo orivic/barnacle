@@ -14,6 +14,11 @@ epoch = 2.5
 path = 'contracts/ownership_transfer_wallet.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.storage_with_role_bassed_access_control]
+path = 'contracts/storage_with_role_bassed_access_control.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
